@@ -3,9 +3,10 @@ package com.example.son.a20160511_son;
 /**
  * Created by SON on 5/11/2016.
  */
+
+
 public class Country {
     private String countryName;
-
     // Image name (Without extension)
     private String flagName;
     private int population;
