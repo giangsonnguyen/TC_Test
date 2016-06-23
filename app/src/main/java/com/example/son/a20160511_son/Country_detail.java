@@ -23,6 +23,8 @@ public class Country_detail extends AppCompatActivity {
 
         Intent intent=getIntent();
         String mCountryname=intent.getStringExtra("CountryName");
+
+        
         int Population=intent.getIntExtra("Population",0);
 
         ((TextView)findViewById(R.id.lblCountry)).setText(mCountryname);
